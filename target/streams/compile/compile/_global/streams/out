@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/ajay/Music/Test/src/main/scala/Masking/Mask.scala:72:93: value toDS is not a member of scala.collection.immutable.IndexedSeq[scala.collection.mutable.ArrayBuffer[Float]][0m
+[0m[[0m[31merror[0m] [0m[0m    val crdRDD = (0 to totalCoordinates - 1 by 3).map(x => coordinateArray.slice(x, x + 3)).toDS().select((0 until 3).map(i => col("value")(i)): _*)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ajay/Music/Test/src/main/scala/Masking/Mask.scala:105:88: value toDS is not a member of scala.collection.immutable.IndexedSeq[scala.collection.mutable.ArrayBuffer[Float]][0m
+[0m[[0m[31merror[0m] [0m[0m    val crdRDD = (0 to totalCoordinates-1 by 3).map(x=> coordinateArray.slice(x, x+3)).toDS().select((0 until 3).map(i => col("value")(i)): _*)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ajay/Music/Test/src/main/scala/Masking/Mask.scala:330:93: value toDS is not a member of scala.collection.immutable.IndexedSeq[scala.collection.mutable.ArrayBuffer[Float]][0m
+[0m[[0m[31merror[0m] [0m[0m    val crdRDD = (0 to totalCoordinates - 1 by 3).map(x => coordinateArray.slice(x, x + 3)).toDS().select((0 until 3).map(i => col("value")(i)): _*)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

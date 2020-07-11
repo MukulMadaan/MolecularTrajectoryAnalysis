@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cdk-2">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/cdk-2.3" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
